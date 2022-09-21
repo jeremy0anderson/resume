@@ -1,0 +1,556 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,500,700|Kalam:400,700|Material+Icons|Covered+By+Your+Grace"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@font-face { 
+  font-family:"Icons Templates";
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/icomoon.woff2") format("woff2"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/icomoon.woff") format("woff");
+} 
+@font-face { 
+  font-family:"Noto Serif";
+  font-style:italic;
+  font-weight:400;
+  font-display:swap;
+  src:local("Noto Serif Italic"), local("NotoSerif-Italic"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/NotoSerif-Italic.woff2") format("woff2"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/NotoSerif-Italic.woff") format("woff");
+  unicode-range:U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F, U+400-45F, U+490-491, U+4B0-4B1, U+2116, U+1F00-1FFF, U+370-3FF, U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB, U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF, U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+@font-face { 
+  font-family:"Noto Serif";
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:local("Noto Serif"), local("NotoSerif"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/NotoSerif.woff2") format("woff2"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/NotoSerif.woff") format("woff");
+  unicode-range:U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F, U+400-45F, U+490-491, U+4B0-4B1, U+2116, U+1F00-1FFF, U+370-3FF, U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB, U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF, U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+@font-face { 
+  font-family:"Noto Serif";
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:local("Noto Serif Bold"), local("NotoSerif-Bold"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/NotoSerif-Bold.woff2") format("woff2"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/NotoSerif-Bold.woff") format("woff");
+  unicode-range:U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F, U+400-45F, U+490-491, U+4B0-4B1, U+2116, U+1F00-1FFF, U+370-3FF, U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB, U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF, U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+@font-face { 
+  font-family:Bitter;
+  font-style:italic;
+  font-weight:400;
+  font-display:swap;
+  src:local("Bitter Italic"), local("Bitter-Italic"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/Bitter-Italic.woff2") format("woff2"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/Bitter-Italic.woff") format("woff");
+  unicode-range:U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF, U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+@font-face { 
+  font-family:Bitter;
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:local("Bitter Regular"), local("Bitter-Regular"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/Bitter-Regular.woff2") format("woff2"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/Bitter-Regular.woff") format("woff");
+  unicode-range:U+0-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF, U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+@font-face { 
+  font-family:Bitter;
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:local("Bitter Bold"), local("Bitter-Bold"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/Bitter-Bold.woff2") format("woff2"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/Bitter-Bold.woff") format("woff");
+  unicode-range:U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF, U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+@font-face { 
+  font-family:"Noto Serif SC";
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:local("Noto Serif SC Regular"), local("NotoSerifSC-Regular"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/NotoSerif-SC.woff2") format("woff2"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/NotoSerif-SC.woff") format("woff");
+} 
+@font-face { 
+  font-family:"Noto Serif SC";
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:local("Noto Serif SC Regular"), local("NotoSerifSC-Regular"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/NotoSerif-SC-Bold.woff2") format("woff2"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/NotoSerif-SC-Bold.woff") format("woff");
+} 
+@font-face { 
+  font-family:"Noto Serif JP";
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:local("Noto Serif JP Regular"), local("NotoSerifJP-Regular"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/NotoSerif-JP.woff2") format("woff2"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/NotoSerif-JP.woff") format("woff");
+} 
+@font-face { 
+  font-family:"Noto Serif JP";
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:local("Noto Serif JP Bold"), local("NotoSerifJP-Bold"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/NotoSerif-JP-Bold.woff2") format("woff2"), url("../../../../../../Downloads/app-snippet-2022-9-21/fonts/NotoSerif-JP-Bold.woff") format("woff");
+} 
+.kmlduM { 
+    display: inherit; 
+    height: calc((100vh - 80px) - 8px); 
+    background: rgb(248, 249, 250); 
+    overflow: hidden auto; 
+    position: relative;
+} 
+
+.GWSQW { 
+    height: 100vh; 
+    overflow: hidden;
+} 
+
+body { 
+    font-family: "Roboto",sans-serif; 
+    margin: 0; 
+    overflow-x: hidden; 
+    background: #F0F3F5;
+} 
+
+html { 
+    line-height: 1.15; 
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
+} 
+
+.fYnxfC { 
+    pointer-events: auto; 
+    margin: 40px 100px 150px; 
+    min-height: calc((((((((100vh - 80px) - 8px) - 36px) - 40px) - 20px) - 42px) - 16px) - 150px); 
+    -webkit-box-align: center; 
+    align-items: center; 
+    text-align: left; 
+    box-sizing: border-box; 
+    display: flex; 
+    -webkit-box-pack: center; 
+    justify-content: center; 
+    position: relative;
+} 
+
+.gOzbkZ { 
+    position: relative; 
+    z-index: 1;
+} 
+
+.fYnxfC .template.html  { 
+    width: 812px;
+} 
+
+.template.html  { 
+    background: white; 
+    border: none; 
+    transform-origin: 0px 0px; 
+    min-height: 842px; 
+    box-shadow: rgb(217, 221, 224) 0px 0px 34px 0px;
+} 
+
+.template *  { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+} 
+
+.resume-container.letter { 
+    min-height: 1043px; 
+    box-sizing: border-box;
+} 
+
+.template__professional { 
+    font-size: 11.5px; 
+    line-height: 1.5em; 
+    width: 100%; 
+    border-spacing: 0; 
+    table-layout: fixed; 
+    word-wrap: break-word;
+} 
+
+.template__newyork { 
+    color: #303030; 
+    font-family: "Bitter",sans-serif;
+} 
+
+.template__professional.letter { 
+    height: 1043px; 
+    min-height: 1043px;
+} 
+
+.font-family--professional.template__newyork { 
+    font-family: "Bitter","Noto Serif SC","Noto Serif JP";
+} 
+
+.khUyMu.paginatorItem { 
+    display: flex; 
+    box-sizing: border-box; 
+    -webkit-box-align: center; 
+    align-items: center; 
+    -webkit-box-pack: center; 
+    justify-content: center; 
+    position: absolute; 
+    top: 1030px; 
+    left: 5px; 
+    padding: 10px; 
+    font-size: 10px; 
+    height: 30px; 
+    background-color: rgb(34, 152, 233); 
+    transform: translate(-100%, -50%); 
+    border-radius: 3px 0px 0px 3px; 
+    text-transform: uppercase; 
+    font-family: Roboto, sans; 
+    letter-spacing: 3px; 
+    font-weight: bold; 
+    color: rgb(255, 255, 255); 
+    border: none;
+} 
+
+.khUyMu.paginatorItem:after { 
+    content: url("../../../../../../Downloads/app-snippet-2022-9-21/images/paginator_arrow-dXBk.svg");
+    position: absolute; 
+    top: 0px; 
+    right: 1px; 
+    height: 100%; 
+    transform: translateX(100%);
+} 
+
+.template__professional__column { 
+    display: table-cell; 
+    width: 220px; 
+    vertical-align: top;
+} 
+
+.template__newyork__column { 
+    background: #D0021B; 
+    padding: 40px 16px 50px 50px; 
+    color: #fff;
+} 
+
+.color--black .template__newyork__column  { 
+    background-color: #303030;
+} 
+
+.template__professional__main { 
+    display: table-cell; 
+    vertical-align: top;
+} 
+
+.template__newyork__main { 
+    padding: 40px 50px 50px 0;
+} 
+
+section { 
+    display: block;
+} 
+
+[data-section].interactive-section { 
+    position: relative;
+} 
+
+.template__professional__column section:not(:last-child) { 
+    margin-bottom: 25px;
+} 
+
+.template__header--twoColumns { 
+    display:  flex;
+    justify-content: space-between;
+} 
+
+.template__professional .template__header  { 
+    border-bottom:  1px solid rgba(48,48,48,0.15);
+    padding-bottom: 16px; 
+    margin-bottom: 16px;
+} 
+
+.template__section__title { 
+    page-break-after: avoid;
+} 
+
+.template__professional__column .template__section__title  { 
+    padding-bottom: 8px;
+} 
+
+.template__professional .template__section__title  { 
+    font-size: 12px; 
+    margin-bottom: 16px;
+} 
+
+.template__newyork .template__section__title  { 
+    font-weight: 700;
+} 
+
+.template__newyork__column .template__section__title  { 
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+} 
+
+.template__professional .template__header__column  { 
+    min-width: calc(100% - 75px - 16px); 
+    max-width: 100%; 
+    margin-right: 16px;
+} 
+
+.template__section__simple--border { 
+    border-bottom:  1px solid rgba(48,48,48,0.15);
+    margin-bottom: 16px; 
+    padding-bottom: 16px;
+} 
+
+.template__professional .template__section__custom  { 
+    margin-bottom: 16px;
+} 
+
+.template__professional .template__header__info  { 
+    margin-bottom: 16px;
+} 
+
+.template ul  { 
+    margin-bottom:  8px;
+    list-style: none; 
+    padding-left: 20px;
+} 
+
+.template__professional__column ul  { 
+    font-size: 11.5px; 
+    line-height: 17.25px; 
+    padding-left: 11px;
+} 
+
+.template__newyork__column ul  { 
+    list-style: none; 
+    padding-left: 0;
+} 
+
+.template__newyork__main .template__section__simple  { 
+    padding-left: 45px;
+} 
+
+.template__professional .template__main .template__section__simple  { 
+    min-width: 0; 
+    max-width: 100%;
+} 
+
+.font-size--medium.template__newyork .template__section__simple:not(.template__section__simple--fixed-font-size):not(.template__section__languages) { 
+    font-size: 11.5px;
+} 
+
+.line-spacing--100.template__newyork .template__section__simple:not(.template__section__languages):not(.template__section__simple--fixed-line-spacing) { 
+    line-height: 17px;
+} 
+
+.template__section__subtitle { 
+    font-weight: 700;
+} 
+
+.template__professional__column .template__section__subtitle  { 
+    margin: 0 0 5px;
+} 
+
+.template__section__info__value { 
+    word-break: break-all;
+} 
+
+.template__newyork .template__section__info__value  { 
+    word-break: break-word; 
+    word-wrap: break-word;
+} 
+
+.template ul li  { 
+    position: relative;
+} 
+
+.template__professional__column ul li  { 
+    margin-bottom: 5px;
+} 
+
+.template ul li:before  { 
+    content: '•'; 
+    position: absolute; 
+    left: -12px;
+} 
+
+.template__newyork__column ul li:before  { 
+    content: '';
+} 
+
+.template__section--twoColumns { 
+    display: flex;
+} 
+
+.template__professional .template__section__experience  { 
+    min-height: 30px;
+} 
+
+.template__professional .template__section__experience:last-child  { 
+    border-bottom:  1px solid rgba(48,48,48,0.15);
+    margin-bottom: 16px;
+} 
+
+.template__professional .template__section__education  { 
+    min-height: 30px;
+} 
+
+.template__professional .template__section__education:last-child  { 
+    border-bottom:  1px solid rgba(48,48,48,0.15);
+    margin-bottom: 16px;
+} 
+
+.template__professional .template__name  { 
+    font-weight:  700;
+    text-transform: uppercase; 
+    font-size: 16px; 
+    line-height: 17px; 
+    margin-bottom: 5px;
+} 
+
+.template__newyork .template__name  { 
+    text-transform: capitalize;
+} 
+
+.template__occupation { 
+    font-weight:  700;
+    font-size: 11.5px; 
+    margin-bottom: 5px;
+} 
+
+.template__header .template__section__simple  { 
+    margin-bottom: 0; 
+    padding-bottom: 0; 
+    border-bottom: 0; 
+    padding-left: 0;
+} 
+
+.template__newyork__main .template__header .template__section__simple  { 
+    padding-left: 0;
+} 
+
+.template__professional .template__section__left  { 
+    border-right:  1px solid rgba(48,48,48,0.15);
+    position: relative; 
+    width: 172px; 
+    padding-right: 16px; 
+    padding-bottom: 16px;
+} 
+
+.template__newyork .template__section__left:before  { 
+    font-family: 'Icons Templates'; 
+    position: absolute; 
+    content: '\e900'; 
+    font-size: 8px; 
+    line-height: 8px; 
+    color: #D0021B; 
+    top: 0; 
+    right: -5.5px; 
+    width: 8px; 
+    height: 10px;
+} 
+
+.color--black.template__newyork .template__section__left:before  { 
+    color: #303030;
+} 
+
+.template__professional .template__section__right  { 
+    width: calc(100% - 172px); 
+    padding-bottom: 16px; 
+    padding-left: 16px; 
+    margin: -5.5px 0 5.5px;
+} 
+
+.template__name span:first-child  { 
+    margin-right: .4em;
+} 
+
+.template__professional .template__section__location  { 
+    font-size: 10.5px;
+} 
+
+.template__section__experience .template__section__startDate  { 
+    font-style:  italic; 
+    margin-top:  3px;
+    display: inline;
+} 
+
+.template__professional .template__section__startDate  { 
+    font-size:  10.5px;
+    font-style: italic;
+} 
+
+.template__section__experience .template__section__endDate  { 
+    font-style:  italic; 
+    margin-top:  3px;
+    display: inline;
+} 
+
+.template__professional .template__section__endDate  { 
+    font-size:  10.5px;
+    font-style: italic;
+} 
+
+.template__section__experience .template__section__endDate:before ,.template__section__education .template__section__endDate:before  { 
+    content: " - ";
+} 
+
+.template__section__position { 
+    font-weight: 700;
+} 
+
+.template__newyork .template__section__position  { 
+    font-size: 12px; 
+    color: #D0021B;
+} 
+
+.color--black.template__newyork .template__section__position  { 
+    color: #303030;
+} 
+
+.template__section__company { 
+    font-style: italic; 
+    margin-top: 3px;
+} 
+
+.template__newyork .template__section__company  { 
+    font-weight:  700;
+    font-style: normal;
+} 
+
+.template__section__description { 
+    margin-top: 8px;
+} 
+
+ .font-size--medium.template__newyork .template__section__description:not(.template__section__simple--fixed-font-size):not(.template__section__languages) { 
+    font-size: 11.5px;
+} 
+
+ .line-spacing--100.template__newyork .template__section__description:not(.template__section__languages):not(.template__section__simple--fixed-line-spacing) { 
+    line-height: 17px;
+} 
+
+.template__section__degree { 
+    font-weight: 700;
+} 
+
+.template__newyork .template__section__degree  { 
+    font-size: 12px; 
+    color: #D0021B;
+} 
+
+.color--black.template__newyork .template__section__degree  { 
+    color: #303030;
+} 
+
+.template__section__college { 
+    font-style: italic; 
+    margin-top: 3px;
+} 
+
+.template__newyork .template__section__college  { 
+    font-weight:  700;
+    font-style: normal;
+} 
+
+.template__section__education .template__section__startDate  { 
+    font-style:  italic; 
+    margin-top:  3px;
+    display: inline;
+} 
+
+.template__section__education .template__section__endDate  { 
+    font-style:  italic; 
+    margin-top:  3px;
+    display: inline;
+} 
+
+
